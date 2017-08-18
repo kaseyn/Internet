@@ -147,6 +147,11 @@ h2 {
         margin-left: 40px;
         margin-top: 5px;
     }
+
+    .light_blue_span {
+        color: #00C4E2;
+    }
+
     #main_content h3 {
         color: #2D73AA;
         font-size: 10pt;
