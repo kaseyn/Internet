@@ -1,0 +1,228 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#wrapper {
+    width: 750px;
+    font-family: sans-serif;
+    display: block;
+    margin: auto;
+}
+
+    #page_head {
+        color: #474747;
+    }
+
+        #page_head img {
+            height: 80px;
+            width: 80px;
+            display: inline-block;
+            margin-bottom: -20px;
+        }
+
+        #page_head h1 {
+            display: inline-block;
+        }
+
+        #page_head span {
+            color: #1062A0;
+        }
+
+h2 {
+    background-color: #3073A8;
+    background: -webkit-linear-gradient(#1363a1, #4982AE, #1363a1);
+    color: #FFFFFF;
+    padding: 10px;
+}        
+
+    #all_content {
+        background-color: #EBEBEB;
+        background: -webkit-linear-gradient(#EBEBEB, #FFFFFF, #FFFFFF, #FFFFFF, #FFFFFF);
+    }
+
+    #sidebar {
+        width: 150px;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+        #what_is {
+            margin: 10px 2px;
+            font-size: 10pt;
+            font-style: bold;
+        }
+
+        #sidebar p {
+            font-size: 8pt;
+            font-style: bold;
+            margin: 0px 2px;
+        }
+
+                #red_span {
+                    color: #EB0202;
+                }
+
+                .blue_span {
+                    color: #2D73AA;
+                }
+
+        #sidebar p {
+            margin-left: 2px;
+            margin-bottom: 10px;
+        }
+
+        #blue_button {
+            background-color: #3073A8;
+            background: -webkit-linear-gradient(#4982AE, #1363a1);            
+            color: #FFFFFF;
+            display: block;
+            width: 150px;
+            height: 30px;
+            border: 0px;
+            border-radius: 5px;
+            margin: 2px;
+        }
+
+        #orange_button {
+            background-color: #F89000;
+            background: -webkit-linear-gradient(#F2AB49, #FE6600);            
+            color: #FFFFFF;
+            display: block;
+            width: 150px;
+            height: 30px;
+            border: 0px;
+            border-radius: 5px;
+            margin: 2px;
+        }
+
+        #ad {
+            height: 235px;
+            width: 155px;
+            padding-left: 2px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #BBBBBB;
+        }
+
+            #ad h3 {
+                color: #FFFFFF;
+                text-align: center;
+                margin: -220px 0px;
+                padding: 0px 5px;
+                font-size: 12pt;
+            }
+
+            #ninja {
+                height: 80px;
+                width: 60px;
+                margin: -285px 0px -285px 40px;
+            }
+            #ad button {
+                background-color: #00CBE2;
+                background: -webkit-linear-gradient(#5DD4E2, #00CBE2, #5DD4E2);
+                color: #FFFFFF;
+                display: block;
+                width: 130px;
+                height: 30px;
+                border: 0px;
+                border-radius: 5px;
+                margin: 285px 10px;
+                z-index: 1; position:relative;
+            }
+
+        #background_img {
+            height: 235px;
+            width: 150px;
+        }
+
+    #main_content {
+        display: inline-block;
+        width: 525px;
+        padding-left: 40px;
+        font-size: 8pt;
+    }
+
+    li {
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+    #main_content h3 {
+        color: #2D73AA;
+        font-size: 10pt;
+    }
+
+
+    #main_head {
+        border-bottom: 1px solid #BBBBBB;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+        #main_head_left {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #home_icon {
+            height: 20px;
+            width: 20px;
+            display: inline;
+            margin-top: 3px;
+        }
+
+        #main_head_left h3 {
+            display: inline;
+            font-size: 10pt;
+        }
+
+        #contact {
+            display: inline-block;
+            margin-left: 330px;
+            margin-top: 3px;
+        }
+
+        #phone_icon {
+            height: 35px;
+            width: 35px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 2px;
+
+        }
+
+        #contact_info {
+            display: inline-block;
+        }
+
+            #contact_info h3 {
+                font-size: 12pt;
+                color: #00C4E2;
+            }
+
+        #client_server {
+            width: 220px;
+            height: 85px;
+            margin: 10px auto;
+            display: block;
+        }
+
+        #big_three {
+            border: 5px solid #007FE4;
+            border-bottom: 0px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+            #big_three img {
+                height: 82px;
+                width: 90px;
+                margin: 5px;
+                display: inline-block;
+            }
+
+            #big_three_content {
+                display: inline-block;
+                width: 400px;
+                vertical-align: top;
+                margin-top: 5px;
+            }
